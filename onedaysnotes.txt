@@ -1,0 +1,1 @@
+Today i.e 28-10-2024 I have learnt about triggers in mysql and other function and workd on mysql taught by Mr.Saurabh Ruikar sir, I have learnt what is group by and having in today class
