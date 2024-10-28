@@ -1,1 +1,19 @@
-Hello world!
+1. FBA Ending Stock Calculation (for each month):
+For Jan 01 (Month 1), calculate the FBA ending stock after shipment and 30 days of demand:
+
+FBA Ending Stock = FBA Starting Stock + Units Shipped to FBA - (Average Daily Demand * 30)
+
+
+
+2. Warehouse Ending Stock Calculation (for each month):
+Subtract the shipped units from the warehouse starting stock:
+
+Warehouse Ending Stock = Warehouse Starting Stock - Units Shipped to FBA
+
+
+
+3. Month 2 Starting Stock:
+For February and March, the starting stock for FBA and the warehouse is the ending stock from the previous month:
+
+FBA Starting Stock (Feb) = FBA Ending Stock (Jan)
+Warehouse Starting Stock (Feb) = Warehouse Ending Stock (Jan)
